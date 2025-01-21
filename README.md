@@ -1,14 +1,48 @@
-# Project Focus: Predicting Customer Churn
+# Predictive Analytics for Customer Retention
 
-The focal point of this project is the mitigation of customer churn. Our objective is to construct a predictive model that effectively identifies customers at a high risk of discontinuing their services. Through the lens of data analytics, we endeavor to address the following key questions:
+Welcome to the **Predictive Analytics for Customer Retention** project! This repository showcases a machine learning solution designed to address customer churn in the telecom sector by predicting high-risk customers and providing actionable insights to minimize churn rates.
 
-1. **Identification of Influential Factors:**
-   Uncover the pivotal factors influencing customer churn within the dynamic landscape of the telecom sector.
+## Project Objectives
 
-2. **Predictive Model Development:**
-   Devise a robust predictive model capable of early detection, pinpointing customers prone to churn based on historical data and leveraging Supervised Machine Learning (ML) techniques.
+1. **Identify Churn Drivers**  
+   Conduct Exploratory Data Analysis (EDA) to uncover key factors influencing customer churn.
+   
+2. **Build Predictive Models**  
+   Develop and optimize supervised machine learning models to classify customers based on their churn likelihood.
+   
+3. **Propose Retention Strategies**  
+   Leverage model insights to recommend effective retention strategies for telecom companies.
 
-3. **Retention Strategy Exploration:**
-   Explore and propose targeted retention initiatives for telecom companies, harnessing the insights derived from our predictive model to minimize churn rates effectively.
+---
 
-The project report, along with the implementation code for each model, has been provided for your reference.
+## Features
+
+- **Exploratory Data Analysis (EDA)**  
+  - Cleaned and preprocessed customer datasets.
+  - Identified and visualized key churn indicators.
+  
+- **Machine Learning Models**  
+  - Implemented Logistic Regression, Decision Trees, and Random Forest Classifier.
+  - Applied hyperparameter tuning to enhance performance metrics.
+  
+- **Evaluation Metrics**  
+  - Evaluated models using confusion matrices, ROC curves, and AUROC scores.
+  
+- **Business Insights**  
+  - Proposed targeted retention strategies based on churn factors.
+
+---
+
+## Tools and Technologies
+
+- **Programming Language**: Python  
+- **Libraries Used**: Pandas, Matplotlib, scikit-learn  
+- **Evaluation Metrics**: Confusion Matrices, ROC Curves, AUROC Score
+
+---
+
+## Key Results
+
+- **Feature Optimization**: Reduced irrelevant features by 30%, focusing on impactful churn indicators.  
+- **Improved Recall**: Enhanced Random Forest recall from 48% to 65% through hyperparameter tuning.  
+- **Model Performance**: Achieved an AUROC score of **0.8514**, ensuring reliable churn predictions.
